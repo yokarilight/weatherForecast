@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+
+.filter{
+    margin: 2rem 1rem 0 2rem;
+}
+
+.weatherCont{
+    color: #0089ff;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+}
+
+.weatherCont svg{
+    font-size: 5rem;
+}
+
+.humidity-wind{
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin: 0;
+}
+
+.humidity{
+    padding-right: 2rem;
+}
+
+.humidity-percent {
+    color: black;
+}
+
+.wind-speed {
+    color: black;
+}
+
+.forecast{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.forecast-daily{
+    padding: 0 1rem 0 1rem;
+}
+
+.weatherItem {
+    color: #0089ff;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherItem svg{
+    font-size: 3rem;
+}
+
+.weatherItem .humidity{
+    flex-grow: 4;
+}
